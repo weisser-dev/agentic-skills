@@ -43,3 +43,7 @@ Step-by-step instructions…
 ## License
 
 MIT, see [LICENSE](LICENSE).
+
+## Subagents
+
+`agents/` holds generic, project-independent **subagent definitions** (frontend/backend builder, code and security review, QA, release, architect, …), a template (`agents/templates/`) and a routing cookbook (`agents/cookbook/`). Each file defines Purpose, Inputs, Outputs, Boundaries and Definition of Done. The files are written in German.
